@@ -1,14 +1,14 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main(){
-	root :=new(TreeNode)
-	root.Val = 8
-	root.Left = &TreeNode{Left:&TreeNode{Val:1},Right:&TreeNode{Val:4},Val:3}
-	root.Right = &TreeNode{Left:&TreeNode{Val:9},Right:&TreeNode{Val:11},Val:10}
-	fmt.Println(increasingBST(root))
-}
+// func main(){
+// 	root :=new(TreeNode)
+// 	root.Val = 8
+// 	root.Left = &TreeNode{Left:&TreeNode{Val:1},Right:&TreeNode{Val:4},Val:3}
+// 	root.Right = &TreeNode{Left:&TreeNode{Val:9},Right:&TreeNode{Val:11},Val:10}
+// 	fmt.Println(increasingBST(root))
+// }
 type TreeNode struct {
 	    Val int
 	     Left *TreeNode

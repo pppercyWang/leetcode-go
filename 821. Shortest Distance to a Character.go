@@ -3,9 +3,9 @@ import(
 	"fmt"
 )
 
-func main(){
-	shortestToChar("cbbvxzbc",[]byte("c")[0])
-}
+// func main(){
+// 	shortestToChar("cbbvxzbc",[]byte("c")[0])
+// }
 var left = 10
 var right =  10
 func shortestToChar(S string, C byte) []int {

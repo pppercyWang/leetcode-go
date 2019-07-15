@@ -1,11 +1,6 @@
 package main
 
 import "strings"
-import "fmt"
-
-func main(){
-	fmt.Println(romanToInt("VI"));
-}
 func romanToInt(s string)  int{
 	sum :=0
 	i := 0

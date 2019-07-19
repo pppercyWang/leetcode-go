@@ -1,5 +1,5 @@
 package main
-func removeDuplicates(S string) string {
+func removeDuplicates2(S string) string {  //跟26题函数名相同
 	stack := make([]rune,0)
 	for _,c:=range S{
 	   if len(stack)>0 && stack[len(stack)-1] == c{

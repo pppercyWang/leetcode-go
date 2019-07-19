@@ -3,10 +3,10 @@ package main
 import "fmt"
 import "strings"
 
-func main(){
-	strs := []string{"aa","asc"}; 
-	fmt.Println(longestCommonPrefix(strs))
-}
+// func main(){
+// 	strs := []string{"aa","asc"}; 
+// 	fmt.Println(longestCommonPrefix(strs))
+// }
 func longestCommonPrefix(strs []string) string {
 	result := strings.Builder{}
 	if len(strs) == 0{

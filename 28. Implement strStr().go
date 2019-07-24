@@ -1,10 +1,10 @@
 package main
-import (
-	"fmt"
-)
-func main(){
-	fmt.Println(strStr("abcde","de"));
-}
+// import (
+// 	"fmt"
+// )
+// func main(){
+// 	fmt.Println(strStr("abcde","de"));
+// }
 
 func strStr(haystack string, needle string) int {
 	if needle == ""{

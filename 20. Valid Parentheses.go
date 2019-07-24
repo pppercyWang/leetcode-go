@@ -2,9 +2,9 @@ package main
 import (
 	"fmt"
 )
-func main(){
-	fmt.Println(isValid("(])"))
-}
+// func main(){
+// 	fmt.Println(isValid("(])"))
+// }
 func isValid(s string ) bool {
 	array := []byte(s)
 	temp := make([]byte,0)
